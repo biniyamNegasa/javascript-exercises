@@ -13,7 +13,7 @@ const removeFromArray = function(list, ...items) {
 
 function isFound(items, element) {
     for (const item of items) {
-        if (item == element) return true;
+        if (item === element) return true;
     }
     return false;
 }
